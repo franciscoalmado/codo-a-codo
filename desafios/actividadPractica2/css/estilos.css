@@ -1,0 +1,170 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.encabezado{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: right;
+    align-items: center;   
+    font-size: 14px;
+    font-family: 'Product Sans', sans-serif;
+}
+.encabezado a{
+    text-decoration: none;
+    margin: 20px;
+    color: black;
+}
+.encabezado a:hover {
+    text-decoration: underline;
+}
+.encabezado img{
+    width: 20px;
+    height: 20px;
+}
+.encabezado button{
+    width: 120px;
+    height: 35px;
+    background-color: #1a73e8;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.titulo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;   
+    font-size: 100px;
+    margin: 15px 30px 15px 30px;
+}
+.google-1{
+    font-family: 'Product Sans', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color: #0685f7;
+}
+.google-2{
+    font-family: 'Product Sans', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color: #f83f2d;
+}
+.google-3{
+    font-family: 'Product Sans', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color: #fabf1c;
+}
+.google-4{
+    font-family: 'Product Sans', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color: #0685f7;
+}
+.google-5{
+    font-family: 'Product Sans', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color: #05ab40;
+}
+.google-6{
+    font-family: 'Product Sans', sans-serif;
+    font-style: normal;
+    font-weight: 100;
+    color: #f83f2d;
+}
+.buscador{
+    float:none;
+    text-align: center;
+    margin: 15px 0px 15px 15px;  
+}
+.barra{
+    width: 600px;
+    height: 40px;
+    padding: 10px 30px 10px 20px;
+    background-color: transparent;
+    background-image: url(../img/lupa.png),
+                        url(../img/google-microfono.jpg);
+    box-sizing: border-box,
+                border-box;
+    background-size: 16px 16px, 
+                        35px 25px;
+    background-repeat: no-repeat,
+                        no-repeat;
+    background-position: 15px,
+                            555px;
+    border-radius: 20px;
+    color: #202124;
+}
+.buscador button{
+    background-color: #f8f9fa;
+    border: 1px solid #f8f9fa;
+    color: #3c4043;
+    font-family: 'Product Sans', sans-serif;
+    font-size: 14px;
+    margin: 30px 10px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+}
+.idioma{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+.idioma p{
+    font-family: 'Product Sans', sans-serif;
+    font-size: 14px;
+    margin: 0px 0px 255px 10px;
+    padding: 0 2px;
+}
+.idioma a{
+    font-family: 'Product Sans', sans-serif;
+    font-size: 14px;
+    margin: 0px 0px 255px 10px;
+    padding: 0 2px;
+    cursor: pointer;
+    text-decoration: none;
+    color: -webkit-link;
+}
+.idioma a:hover {
+    text-decoration: underline;
+}
+.ubicacion{
+    font-family: 'Product Sans', sans-serif;
+    padding: 15px 30px;
+    font-size: 14px;
+    color: rgba(0,0,0,.54);
+    display: block;
+    background-color: #e7eaee;
+    border-bottom: 1px solid #b8b9be;
+}
+.piedepagina{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around; 
+    padding: 7px 30px;
+    background-color: #e7eaee;
+    border-bottom: 1px solid #b8b9be;
+}
+.piedepagina a{
+    font-family: 'Product Sans', sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 14px;
+    color: rgba(0,0,0,.54);
+    margin: 0px 0px 0px 10px;
+    padding: 0 20px;
+}
+.piedepagina a:hover {
+    text-decoration: underline;
+}

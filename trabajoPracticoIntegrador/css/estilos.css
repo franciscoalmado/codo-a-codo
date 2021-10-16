@@ -1,0 +1,244 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: normal;
+}
+nav{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #353a40;  
+}
+.titulo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.logo{
+    width: 100px;
+    height: 60px;
+}
+h1{
+    font-size: 20px;
+    color: #F8F8FF; 
+}
+.nav-link{
+    color: #F8F8FF;
+}
+.link2, .link3, .link4{
+    opacity: 0.50;
+}
+.link5 a{
+    color: #2aa345;
+}
+.d-block w-100{
+    opacity: 0.10;
+}
+.carousel-inner img{
+    filter: grayscale(60%);
+}
+.mensaje{
+    position: absolute;
+    top: 350px;
+    left: 450px;
+    text-align: right;
+    color:#F8F8FF;
+    font-size: 15px;
+    font-weight: normal;
+    margin: 150px;
+    padding: 10px;
+    background: rgba(0,0,0,.8);
+}
+.button-1{
+    margin-top: 8px;
+    background: none;
+    border: 1px solid white;
+    color: #F8F8FF;
+    width: 120px;
+    font-weight: normal;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 14px;
+} 
+.button-2{
+    margin-top: 8px;
+    background: #28a745;
+    border: none;
+    color: #F8F8FF;
+    width: 120px;
+    font-weight: normal;
+    border-radius: 5px;
+    padding: 4px;
+    font-size: 14px;
+} 
+.titulo-oradores{
+    margin-top: 30px;
+}
+.titulo-oradores p{
+    text-align: center;
+    font-size: 11px;
+    margin: auto;
+}
+.titulo-oradores h3{
+    text-align: center;
+    font-size: 30px;
+    margin: auto;
+}
+.col{
+    border: 1px solid #dce1e4;
+    margin: 5px 30px 0px 5px;
+}
+.container img{
+    padding: 0px;
+    width: 200px;
+    height: 200px;
+    display: block;
+    margin: auto;  
+}
+.javascript{
+    margin-top: 15px;
+    background: #fec107;
+    border: none;
+    width: 80px;
+    font-weight: bold;
+    font-size: 14px;
+    border-radius: 5px;
+}
+.react{
+    margin-top: 15px;
+    background: #17a2b9;
+    border: none;
+    width: 50px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #F8F8FF;
+    border-radius: 5px;
+}
+.negocios{
+    margin-top: 15px;
+    background: #6c757c;
+    border: none;
+    width: 80px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #F8F8FF;
+    border-radius: 5px;
+}
+.startups{
+    margin-top: 15px;
+    background: #dc3546;
+    border: none;
+    width: 80px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #F8F8FF;
+    border-radius: 5px;
+}
+.p{
+    font-size: 14px;
+    text-align: justify;
+}
+.oradores-p{
+    margin-top: 15px;
+    font-weight: bold;
+    font-size: 20px;
+}
+.titular{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+}
+.honolulu{
+    width: 500px;
+    height: 350px;
+    margin-left: 165px;
+    margin-right: 1px;
+}
+.div-2{
+    background: #353a40;
+    font-size: 14px;
+    justify-content: left;
+    color: #F8F8FF;
+    width: 500px;
+    height: 350px;
+    padding: 10px;
+}
+.div-2 h4{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-weight: normal;
+}
+.div-2 p{
+    margin-left: 5px;
+    text-align: justify;
+    padding: 5px;
+}
+.div-2 button{
+    margin-left: 10px;
+    background: #353a40;
+    border: 1.5px solid #686d72;
+    color: #F8F8FF;
+    padding: 5px;
+}
+.titulo-oradores-p{
+    text-align: center;
+    font-size: 10px;
+    margin: auto;
+    padding: 5px;
+}
+.form{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: center;
+    margin: 15px 10px 10x 0px;
+}
+#inputEmail4{
+    width: 330px;
+    margin-left: 325px;
+    margin-bottom: 15px;
+}
+#inputPassword4{
+    width: 330px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+.seccion textarea{
+    width: 700px;
+    display: block;
+    margin: auto; 
+}
+.seccion label{
+    width: 700px;
+    display: block;
+    margin: auto;
+    opacity: 0.5;
+    font-size: 14px;
+}
+.boton-enviar button{
+    background: #96c93e;
+    border: #96c93e;
+    width: 700px;
+    display: block;
+    margin: auto; 
+}
+.boton-enviar button:hover{
+    background: #6aa702;
+}
+footer{
+    margin: 30px 0px 0px 0px;
+    background-color: #1e475d;
+    height: 60px;
+    line-height: 40px;
+    font-size: 14px;
+}
+footer li{
+    margin: 0px 30px 0px 0px;
+}
