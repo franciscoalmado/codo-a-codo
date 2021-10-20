@@ -1,0 +1,103 @@
+.link1, .link2, .link3{
+    opacity: 0.50;
+}
+.link4, .link5{
+    opacity: 1;
+}
+.colaboradores{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: center;
+    margin: 25px 0 15px 282px;
+}
+.caja-1{
+    border: 2px solid #0d81fd;
+    padding: 25px;
+} 
+.caja-2{
+    border: 2px solid #23a6ba;
+    padding: 25px;
+    margin: 0 5px 0 5px;
+}
+.caja-3{
+    border: 2px solid #ffdd76;
+    padding: 25px;
+}
+.etiqueta-1{
+    text-align: center;
+    font-size: 25px;
+}
+.etiqueta-2{
+    text-align: center;
+    font-size: 15px;
+}
+#n11,#n22,#n33 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.etiqueta-4{
+    text-align: center;
+    font-size: 15px;
+}
+.espacio{
+    margin-bottom: 15px;
+    color: white;
+    font-size: 20px;
+}
+#inputEmail5{
+    width: 700px;
+    margin-left: 282px;
+    margin-bottom: 15px;
+}
+#inputEmail6{
+    width: 330px;
+    margin-left: 282px;
+    margin-bottom: 15px;
+}
+#inputPassword5{
+    width: 330px;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+.resumen{
+    background-color: #cce5ff;
+    width: 700px; 
+    height: 40px;
+    margin: 5px 0 15px 282px;
+    color: #235c99;
+    padding: 5px 5px 5px 15px;
+    font-weight: bold;
+    border-radius: 5px;
+}
+.cantidad{
+    display: block;
+    margin: auto;
+    margin-left: 282px;
+    margin-bottom: 15px;
+}
+.categoria{
+    display: block;
+    margin: auto;
+    margin-left: 40px;
+    margin-bottom: 15px;
+}
+.boton{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: stretch;
+    align-items: center;
+    margin: 15px 0 15px 282px;
+}
+.boton-enviar button{
+    background: #96c93e;
+    border: #96c93e;
+    width: 330px;
+}
+.boton-resumen{
+    margin-left: 40px;
+}
+.boton-enviar button:hover{
+    background: #6aa702;
+}
